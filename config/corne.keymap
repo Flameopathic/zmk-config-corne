@@ -35,14 +35,14 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&mt LEFT_ALT ENTER  &kp Q  &kp W     &kp F      &kp P      &kp G      &kp J  &kp L          &kp U    &kp Y  &kp RGUI               &kp RALT
-     &mt LCTRL TAB  &kp A  &kp R     &kp S      &kp T      &kp D      &kp H  &kp N          &kp E    &kp I     &kp O  &mt RIGHT_CONTROL SQT
-         &kp LSHFT  &kp Z  &kp X     &kp C      &kp V      &kp B      &kp K  &kp M      &kp COMMA  &kp DOT  &kp FSLH   &mt RIGHT_SHIFT SEMI
-                                  &kp LGUI  &lt 1 ESC  &kp SPACE    &kp RET  &mo 1  &kp BACKSPACE
+&mt LEFT_ALT ENTER  &kp Q  &kp W   &kp F      &kp P      &kp G      &kp J  &kp L          &kp U    &kp Y  &kp RGUI               &kp RALT
+     &mt LCTRL TAB  &kp A  &kp R   &kp S      &kp T      &kp D      &kp H  &kp N          &kp E    &kp I     &kp O  &mt RIGHT_CONTROL SQT
+         &kp LSHFT  &kp Z  &kp X   &kp C      &kp V      &kp B      &kp K  &kp M      &kp COMMA  &kp DOT  &kp FSLH   &mt RIGHT_SHIFT SEMI
+                                  &trans  &lt 1 ESC  &kp SPACE    &kp RET  &mo 2  &kp BACKSPACE
             >;
         };
 
-        qac {
+        num {
             // -----------------------------------------------------------------------------------------
             // |  TAB |  1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  | BKSP |
             // | BTCLR| BT1 | BT2 | BT3 | BT4 | BT5 |   | LFT | DWN |  UP | RGT |     |      |
@@ -50,10 +50,19 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-  &kp TAB  &trans  &kp NUMBER_7        &kp N8  &kp NUMBER_9     &kp N0     &trans    &trans      &trans  &trans     &trans         &trans
-   &trans  &trans        &kp N4  &kp NUMBER_5        &kp N6     &trans     &trans  &kp LEFT    &kp DOWN  &kp UP  &kp RIGHT  &kp BACKSLASH
-&kp LSHFT  &trans  &kp NUMBER_1        &kp N2        &kp N3     &trans     &trans    &trans      &trans  &trans     &trans         &trans
-                                     &kp LGUI        &trans  &kp SPACE    &kp RET    &trans  &kp DELETE
+              &trans  &kp GRAVE  &kp NUMBER_7        &kp N8  &kp NUMBER_9    &kp N0    &trans    &trans    &trans  &trans     &trans  &trans
+              &trans  &kp MINUS        &kp N4  &kp NUMBER_5        &kp N6  &kp LBKT    &trans  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans
+&mt LSHIFT BACKSLASH  &kp EQUAL  &kp NUMBER_1        &kp N2        &kp N3  &kp RBKT    &trans    &trans    &trans  &trans     &trans  &trans
+                                                     &trans        &trans    &trans    &trans    &trans    &trans
+            >;
+        };
+
+        sym {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans    &trans  &trans  &trans
             >;
         };
 
