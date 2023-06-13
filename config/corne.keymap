@@ -15,7 +15,7 @@
         gaming {
             bindings = <&tog 2>;
             key-positions = <5 13>;
-            layers = <1 0>;
+            layers = <0 3>;
         };
     };
 
