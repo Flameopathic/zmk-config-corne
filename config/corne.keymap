@@ -13,7 +13,7 @@
         compatible = "zmk,combos";
 
         gaming {
-            bindings = <&tog 2>;
+            bindings = <&tog 3>;
             key-positions = <5 13>;
             layers = <0 3>;
         };
@@ -30,10 +30,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&mt LEFT_ALT ENTER  &kp Q  &kp W   &kp F      &kp P      &kp G      &kp J  &kp L          &kp U    &kp Y  &kp RGUI               &kp RALT
-     &mt LCTRL TAB  &kp A  &kp R   &kp S      &kp T      &kp D      &kp H  &kp N          &kp E    &kp I     &kp O  &mt RIGHT_CONTROL SQT
-         &kp LSHFT  &kp Z  &kp X   &kp C      &kp V      &kp B      &kp K  &kp M      &kp COMMA  &kp DOT  &kp FSLH   &mt RIGHT_SHIFT SEMI
-                                  &trans  &lt 2 ESC  &kp SPACE    &kp RET  &mo 1  &kp BACKSPACE
+&mt LEFT_ALT ENTER  &kp Q  &kp W    &kp F      &kp P      &kp G      &kp J  &kp L          &kp U    &kp Y  &kp RGUI               &kp RALT
+     &mt LCTRL TAB  &kp A  &kp R    &kp S      &kp T      &kp D      &kp H  &kp N          &kp E    &kp I     &kp O  &mt RIGHT_CONTROL SQT
+         &kp LSHFT  &kp Z  &kp X    &kp C      &kp V      &kp B      &kp K  &kp M      &kp COMMA  &kp DOT  &kp FSLH   &mt RIGHT_SHIFT SEMI
+                                  &kp DEL  &lt 2 ESC  &kp SPACE    &kp RET  &mo 1  &kp BACKSPACE
             >;
         };
 
