@@ -30,10 +30,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&mt LEFT_ALT ENTER  &kp Q  &kp W    &kp F      &kp P      &kp G      &kp J  &kp L          &kp U    &kp Y  &kp RGUI               &kp RALT
-     &mt LCTRL TAB  &kp A  &kp R    &kp S      &kp T      &kp D      &kp H  &kp N          &kp E    &kp I     &kp O  &mt RIGHT_CONTROL SQT
-         &kp LSHFT  &kp Z  &kp X    &kp C      &kp V      &kp B      &kp K  &kp M      &kp COMMA  &kp DOT  &kp FSLH   &mt RIGHT_SHIFT SEMI
-                                  &kp DEL  &lt 2 ESC  &kp SPACE    &kp RET  &mo 1  &kp BACKSPACE
+&mt LEFT_ALT ENTER  &kp Q  &kp W         &kp F      &kp P      &kp G      &kp J  &kp L          &kp U    &kp Y  &kp BSLH               &kp RALT
+     &mt LCTRL TAB  &kp A  &kp R         &kp S      &kp T      &kp D      &kp H  &kp N          &kp E    &kp I     &kp O  &mt RIGHT_CONTROL SQT
+         &kp LSHFT  &kp Z  &kp X         &kp C      &kp V      &kp B      &kp K  &kp M      &kp COMMA  &kp DOT  &kp FSLH   &mt RIGHT_SHIFT SEMI
+                                  &kp LEFT_WIN  &lt 2 ESC  &kp SPACE    &kp RET  &mo 1  &kp BACKSPACE
             >;
         };
 
@@ -45,19 +45,19 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-              &trans  &kp GRAVE  &kp NUMBER_7        &kp N8  &kp NUMBER_9    &kp N0        &trans      &trans      &trans  &trans     &trans  &trans
-              &trans  &kp MINUS        &kp N4  &kp NUMBER_5        &kp N6  &kp LBKT        &trans    &kp LEFT    &kp DOWN  &kp UP  &kp RIGHT  &trans
-&mt LSHIFT BACKSLASH  &kp EQUAL  &kp NUMBER_1        &kp N2        &kp N3  &kp RBKT    &bt BT_CLR  &bt BT_PRV  &bt BT_NXT  &trans     &trans  &trans
-                                                     &trans        &trans    &trans        &trans      &trans      &trans
+&trans  &kp GRAVE  &kp NUMBER_7        &kp N8  &kp NUMBER_9    &kp N0        &trans      &trans      &trans  &trans     &trans  &trans
+&trans  &kp MINUS        &kp N4  &kp NUMBER_5        &kp N6  &kp LBKT        &trans    &kp LEFT    &kp DOWN  &kp UP  &kp RIGHT  &trans
+&trans  &kp EQUAL  &kp NUMBER_1        &kp N2        &kp N3  &kp RBKT    &bt BT_CLR  &bt BT_PRV  &bt BT_NXT  &trans     &trans  &trans
+                                       &trans        &trans    &trans        &trans      &trans      &trans
             >;
         };
 
         sym {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans    &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans   &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans   &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans   &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans    &trans  &trans  &kp DEL
             >;
         };
 
