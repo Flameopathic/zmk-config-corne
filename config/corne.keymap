@@ -9,7 +9,14 @@
 #include <dt-bindings/zmk/keys.h>
 
 / {
-    combos { compatible = "zmk,combos"; };
+    combos {
+        compatible = "zmk,combos";
+
+        left-reset {
+            bindings = <&sys_reset>;
+            key-positions = <36 37 38 39 40 41>;
+        };
+    };
 
     keymap {
         compatible = "zmk,keymap";
